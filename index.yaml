@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  space-mdm:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2024-05-19T06:29:15.33196887Z"
+    description: KeJun master data management
+    digest: 7eda3929dbe551e3ecbc859f2635815a17196c279a5f426965ae80e60b1c4da7
+    name: space-mdm
+    type: application
+    urls:
+    - https://github.com/kjhch/helm-charts/releases/download/space-mdm-0.0.1/space-mdm-0.0.1.tgz
+    version: 0.0.1
+generated: "2024-05-19T06:29:15.332001361Z"
