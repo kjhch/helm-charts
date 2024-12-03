@@ -11,4 +11,15 @@ entries:
     urls:
     - https://github.com/kjhch/helm-charts/releases/download/space-mdm-0.0.1/space-mdm-0.0.1.tgz
     version: 0.0.1
-generated: "2024-05-19T06:29:15.332001361Z"
+  space-ucm:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2024-12-03T07:17:46.914379048Z"
+    description: KeJun user content management
+    digest: 3ffada6b6af94549b05728354e7dbaae9b63d181c4a46e895c3970704fa3eeb0
+    name: space-ucm
+    type: application
+    urls:
+    - https://github.com/kjhch/helm-charts/releases/download/space-ucm-0.0.1/space-ucm-0.0.1.tgz
+    version: 0.0.1
+generated: "2024-12-03T07:17:46.914386091Z"
