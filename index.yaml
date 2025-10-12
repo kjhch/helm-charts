@@ -1,5 +1,16 @@
 apiVersion: v1
 entries:
+  space-front:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2025-10-12T00:42:21.437376958Z"
+    description: Kejun's Space Front
+    digest: db3aa01a39a8a7b8e85ad6fb50b7e9a4e9f9737a0a88be34a690a49fe9584578
+    name: space-front
+    type: application
+    urls:
+    - https://github.com/kjhch/helm-charts/releases/download/space-front-0.0.1/space-front-0.0.1.tgz
+    version: 0.0.1
   space-mdm:
   - apiVersion: v2
     appVersion: latest
@@ -21,6 +32,17 @@ entries:
     urls:
     - https://github.com/kjhch/helm-charts/releases/download/space-mdm-0.0.1/space-mdm-0.0.1.tgz
     version: 0.0.1
+  space-srm:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2025-10-12T00:42:21.550298829Z"
+    description: KeJun subject relations management
+    digest: 1babc1e381db286d43066bb8e054a68cefa2574368844316a1a05213aa46c3a8
+    name: space-srm
+    type: application
+    urls:
+    - https://github.com/kjhch/helm-charts/releases/download/space-srm-0.0.1/space-srm-0.0.1.tgz
+    version: 0.0.1
   space-ucm:
   - apiVersion: v2
     appVersion: latest
@@ -32,4 +54,4 @@ entries:
     urls:
     - https://github.com/kjhch/helm-charts/releases/download/space-ucm-0.0.1/space-ucm-0.0.1.tgz
     version: 0.0.1
-generated: "2024-12-16T01:58:33.468839827Z"
+generated: "2025-10-12T00:42:21.550309289Z"
