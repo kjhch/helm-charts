@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: 部署space-mdm
+name: 部署space-front
 
 # Controls when the workflow will run
 on:
@@ -25,4 +25,4 @@ jobs:
         run: |
           echo "image tag: ${{ inputs.tag }}"
           helm repo update
-          helm upgrade --install space-mdm kjhch/space-mdm --set image.tag=${{ inputs.tag }}
+          helm upgrade --install space-front kjhch/space-front --set image.tag=${{ inputs.tag }}
