@@ -35,6 +35,16 @@ entries:
   space-srm:
   - apiVersion: v2
     appVersion: latest
+    created: "2025-11-20T07:14:31.036105538Z"
+    description: KeJun subject relations management
+    digest: 0d7c40a51d0d2c15f29c607bd890774ca71efdeac74a0e068f1319ada28daa61
+    name: space-srm
+    type: application
+    urls:
+    - https://github.com/kjhch/helm-charts/releases/download/space-srm-0.0.2/space-srm-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
+    appVersion: latest
     created: "2025-10-12T00:42:21.550298829Z"
     description: KeJun subject relations management
     digest: 1babc1e381db286d43066bb8e054a68cefa2574368844316a1a05213aa46c3a8
@@ -46,6 +56,16 @@ entries:
   space-ucm:
   - apiVersion: v2
     appVersion: latest
+    created: "2025-11-20T07:14:31.203083817Z"
+    description: KeJun user content management
+    digest: 365470274afc7aa129ce1e50c2a2f68ef33fb75e9373b6be6669de54281eb52a
+    name: space-ucm
+    type: application
+    urls:
+    - https://github.com/kjhch/helm-charts/releases/download/space-ucm-0.0.2/space-ucm-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
+    appVersion: latest
     created: "2024-12-03T07:17:46.914379048Z"
     description: KeJun user content management
     digest: 3ffada6b6af94549b05728354e7dbaae9b63d181c4a46e895c3970704fa3eeb0
@@ -54,4 +74,4 @@ entries:
     urls:
     - https://github.com/kjhch/helm-charts/releases/download/space-ucm-0.0.1/space-ucm-0.0.1.tgz
     version: 0.0.1
-generated: "2025-10-12T00:42:21.550309289Z"
+generated: "2025-11-20T07:14:31.203099667Z"
