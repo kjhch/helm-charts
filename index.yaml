@@ -3,6 +3,16 @@ entries:
   space-front:
   - apiVersion: v2
     appVersion: latest
+    created: "2025-12-03T11:59:05.468381316Z"
+    description: Kejun's Space Front
+    digest: 1afbf0a81e1b76891dca4e6191edde7966e57d4354cee93f6fa1b21955f20ef4
+    name: space-front
+    type: application
+    urls:
+    - https://github.com/kjhch/helm-charts/releases/download/space-front-0.0.2/space-front-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
+    appVersion: latest
     created: "2025-10-12T00:42:21.437376958Z"
     description: Kejun's Space Front
     digest: db3aa01a39a8a7b8e85ad6fb50b7e9a4e9f9737a0a88be34a690a49fe9584578
@@ -74,4 +84,4 @@ entries:
     urls:
     - https://github.com/kjhch/helm-charts/releases/download/space-ucm-0.0.1/space-ucm-0.0.1.tgz
     version: 0.0.1
-generated: "2025-11-20T07:14:31.203099667Z"
+generated: "2025-12-03T11:59:05.468396575Z"
