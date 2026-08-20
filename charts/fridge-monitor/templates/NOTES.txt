@@ -1,0 +1,8 @@
+fridge-monitor is deployed as a headless singleton worker.
+
+It polls the Haier cloud API every 5 minutes and stores its token in Redis.
+All credentials and the Redis URL are compiled into the image, so no env or
+secret configuration is needed here.
+
+1. Watch the logs:
+   kubectl logs -f deploy/{{ include "fridge-monitor.fullname" . }}

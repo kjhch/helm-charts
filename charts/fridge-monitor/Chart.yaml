@@ -1,0 +1,9 @@
+apiVersion: v2
+name: fridge-monitor
+description: KeJun Haier fridge temperature monitor worker
+
+type: application
+
+version: 0.0.1
+
+appVersion: "latest"
