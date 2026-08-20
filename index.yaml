@@ -1,5 +1,16 @@
 apiVersion: v1
 entries:
+  fridge-monitor:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2026-08-20T23:50:43.873975772Z"
+    description: KeJun Haier fridge temperature monitor worker
+    digest: a3b8e9dd8e325bb59ea7f5ea85a92cb539ab2c99c452c082d40c7c2912fcee86
+    name: fridge-monitor
+    type: application
+    urls:
+    - https://github.com/kjhch/helm-charts/releases/download/fridge-monitor-0.0.1/fridge-monitor-0.0.1.tgz
+    version: 0.0.1
   space-front:
   - apiVersion: v2
     appVersion: latest
@@ -84,4 +95,4 @@ entries:
     urls:
     - https://github.com/kjhch/helm-charts/releases/download/space-ucm-0.0.1/space-ucm-0.0.1.tgz
     version: 0.0.1
-generated: "2025-12-03T11:59:05.468396575Z"
+generated: "2026-08-20T23:50:43.873993977Z"
